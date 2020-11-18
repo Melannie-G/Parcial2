@@ -42,7 +42,7 @@ visor1=document.getElementById("visor"); //referencia al visor
 mititulo=document.getElementById("titulo"); //referencia al pie de foto
 }
 function mifoto(num) { //cambiar la imagen
-         f="./imagenes/foto"+num+".jpg"; //ruta de la nueva imagen
+         f="https://raw.githubusercontent.com/Melannie-G/Parcial2/gh-pages/foto"+num+".jpg"; //ruta de la nueva imagen
          document.images["fotoVisor"].src=f; //cambiar imagen
          t=document.images["fotos"+num].alt; //texto de pie de foto
          mititulo.innerHTML=t; //cambiar pie de foto
